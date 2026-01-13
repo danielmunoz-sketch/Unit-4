@@ -44,7 +44,9 @@ public class PrincipalPersona {
 		}
 		
 		System.out.println(p1.nombre + " " + p1.apellidos + " con DNI " + p1.DNI + " y mayor de edad (" + mayorEdad1 + ")");
-		System.out.println(p2.nombre + " " + p2.apellidos + " con DNI " + p2.DNI + " y mayor de edad (" + mayorEdad2 + ")");		
+		System.out.println(p2.nombre + " " + p2.apellidos + " con DNI " + p2.DNI + " y mayor de edad (" + mayorEdad2 + ")");	
+		
+		scanner.close();
 	}
 
 }
